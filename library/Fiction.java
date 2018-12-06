@@ -3,7 +3,7 @@ public class Fiction extends Book {
 	private Double price = 0.0;
 	private String title = "";
 	
-	public Fiction(String x){
+	public Fiction(){
 		setPrice();
 	}
 	

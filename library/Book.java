@@ -5,18 +5,13 @@ public abstract class Book {
 	private Double price = 0.0;
 	public abstract void setPrice();
 	
-	Book(String x){
-		setTitle(x);
-	}
-	
-	public void setTitle(String x){
-		title = x;
+	Book(){
+
 	}
 	
 	public String getTitle(){
 		return title;
 	}
-	
 	
 	
 	public double getPrice(){
